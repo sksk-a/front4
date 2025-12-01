@@ -1,0 +1,25 @@
+.tech-card {
+    border: 2px solid #ddd;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+    .tech-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+.status-not-started {
+    border-left: 6px solid #ff6b6b;
+}
+
+.status-progress {
+    border-left: 6px solid #4ecdc4;
+}
+
+.status-completed {
+    border-left: 6px solid #45b7d1;
+}
